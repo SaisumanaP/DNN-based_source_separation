@@ -1,0 +1,19 @@
+name: DNN-based_source_separation_musdb18-gpu
+
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python>=3.6,<=3.9
+  - pyyaml>=5.1
+  - numpy>=1.19
+  - matplotlib
+  - pytorch>=1.10.0
+  - torchaudio>=0.10.0
+  - cudatoolkit>=10
+  - pip
+  - pip:
+    - musdb==0.4.0
+    - museval==0.4.0

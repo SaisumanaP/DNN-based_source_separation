@@ -1,0 +1,14 @@
+name: DNN-based_source_separation_tutorials-cpu
+
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python>=3.6,<=3.9
+  - numpy>=1.19
+  - matplotlib
+  - mir_eval==0.6
+  - pytorch>=1.10.0
+  - torchaudio>=0.10.0
